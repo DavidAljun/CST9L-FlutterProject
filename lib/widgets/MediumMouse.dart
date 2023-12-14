@@ -1002,11 +1002,11 @@ class _MyMediumMouse extends State<MediumMouse>
                                           SizedBox(width: 20),
                                           ElevatedButton(
                                             onPressed: () {
-                                              setState(() {
-                                                simpleDoubleInput = 0;
-                                              });
-                                              _getNextDocument();
-                                            },
+                                    setState(() {
+                                      simpleDoubleInput = 1;
+                                    });
+                                    _getNextDocument();
+                                  },
                                             style: ElevatedButton.styleFrom(
                                               padding: EdgeInsets.symmetric(
                                                   horizontal: 16, vertical: 12),
@@ -1264,11 +1264,11 @@ Center(
                                           SizedBox(width: 20),
                                           ElevatedButton(
                                             onPressed: () {
-                                              setState(() {
-                                                simpleDoubleInput = 0;
-                                              });
-                                              _getNextDocument();
-                                            },
+                                    setState(() {
+                                      simpleDoubleInput = 1;
+                                    });
+                                    _getNextDocument();
+                                  },
                                             style: ElevatedButton.styleFrom(
                                               padding: EdgeInsets.symmetric(
                                                   horizontal: 16, vertical: 12),
