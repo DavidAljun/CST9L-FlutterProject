@@ -45,8 +45,7 @@ class _LoginPageWidgetState extends State<LoginPageWidget> {
           .get();
 
       if (querySnapshot.docs.isNotEmpty) {
-        print('Login successful!');
-        // You can navigate to the home screen or perform any other action here
+        Navigator.pushNamed(context, '/home');
       } else {
         _showErrorDialog(context, 'Wrong email or password. Please try again.');
       }
