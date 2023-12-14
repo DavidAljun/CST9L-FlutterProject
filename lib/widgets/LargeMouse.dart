@@ -1061,11 +1061,11 @@ class _MyLargeMouse extends State<LargeMouse>
                                     ),
                                     /* ElevatedButton(
                                       onPressed: () {
-                                        setState(() {
-                                          simpleDoubleInput = 0;
-                                        });
-                                        _getNextDocument();
-                                      },
+                                    setState(() {
+                                      simpleDoubleInput = 1;
+                                    });
+                                    _getNextDocument();
+                                  },
                                       child: Text('Next'),
                                     ), */
                                   ],
@@ -1239,13 +1239,12 @@ class _MyLargeMouse extends State<LargeMouse>
                                             ),
                                           ),
                                           SizedBox(width: 20),
-                                          ElevatedButton(
-                                            onPressed: () {
-                                              setState(() {
-                                                simpleDoubleInput = 0;
-                                              });
-                                              _getNextDocument();
-                                            },
+                                          onPressed: () {
+                                    setState(() {
+                                      simpleDoubleInput = 1;
+                                    });
+                                    _getNextDocument();
+                                  },
                                             style: ElevatedButton.styleFrom(
                                               padding: EdgeInsets.symmetric(
                                                   horizontal: 16, vertical: 12),
