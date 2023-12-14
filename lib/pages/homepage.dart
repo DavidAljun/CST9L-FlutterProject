@@ -429,15 +429,6 @@ class _HomePageWidgetState extends State<HomePageWidget> with SingleTickerProvid
               fontWeight: FontWeight.bold,
             ),
           ),
-        if (user == null)
-          Text(
-            'Welcome, Guest',
-            style: GoogleFonts.mPlus1(
-              color: Colors.black,
-              fontSize: 18,
-              fontWeight: FontWeight.bold,
-            ),
-          ),
         SizedBox(height: 48),
         ElevatedButton(
           onPressed: () {
