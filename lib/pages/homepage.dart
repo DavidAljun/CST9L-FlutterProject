@@ -420,15 +420,15 @@ class _HomePageWidgetState extends State<HomePageWidget> with SingleTickerProvid
     child: Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        if (user != null)
-          Text(
-            'Welcome, ${user.displayName ?? "User"}',
-            style: GoogleFonts.mPlus1(
-              color: Colors.black,
-              fontSize: 18,
-              fontWeight: FontWeight.bold,
+          if (user == null)
+            Text(
+              'Welcome, User',
+              style: GoogleFonts.mPlus1(
+                color: Colors.black,
+                fontSize: 18,
+                fontWeight: FontWeight.bold,
+              ),
             ),
-          ),
         SizedBox(height: 48),
         ElevatedButton(
           onPressed: () {
