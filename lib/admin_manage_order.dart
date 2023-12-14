@@ -54,16 +54,18 @@ class AMorder extends StatelessWidget {
                     child: Row(
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: [
-                        IconButton(
-                          icon: Icon(
-                            Icons.arrow_back,
-                            size: 30,
-                            color: Colors.white,
-                          ),
-                          onPressed: () {
-                            Navigator.pushNamed(context, '/admin_dashboard');
-                          },
-                        ),
+                        Material(
+  child: IconButton(
+    icon: Icon(
+      Icons.arrow_back,
+      size: 10,
+      color: Colors.white,
+    ),
+    onPressed: () {
+      Navigator.pushNamed(context, '/admin_dashboard');
+    },
+  ),
+)
                         Text(
                           ' Admin manage order page',
                           style: TextStyle(
