@@ -1071,11 +1071,11 @@ class _MySmallMouse extends State<SmallMouse>
                                     ),
                                     /* ElevatedButton(
                                       onPressed: () {
-                                        setState(() {
-                                          simpleDoubleInput = 0;
-                                        });
-                                        _getNextDocument();
-                                      },
+                                    setState(() {
+                                      simpleDoubleInput = 1;
+                                    });
+                                    _getNextDocument();
+                                  },
                                       child: Text('Next'),
                                     ), */
                                   ],
