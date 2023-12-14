@@ -229,8 +229,6 @@ class _LoginPageWidgetState extends State<LoginPageWidget> {
                         ElevatedButton(
                           onPressed: () {
                             _signInWithEmailAndPassword(context).then((_) {
-                              // Only navigate to home if sign-in is successful
-                              Navigator.pushNamed(context, '/home');
                             });
                           },
                           child: Text('LOGIN'),
