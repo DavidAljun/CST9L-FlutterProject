@@ -1,3 +1,7 @@
 # Lamzu Atlantis Flutter Project
 
-Made by David Aljun Lapiz and Jefferson Adlawan within 1 week of Coding with the use of Flutter and Firebase through the Dart Language.
+With a course of 1 week of Coding with the use of Flutter and Firebase through the Dart Language.
+
+# Downloading the Project
+
+1) Clone this Project: ```git clone https://github.com/DavidAljun/CST9L-FlutterProject.git```
